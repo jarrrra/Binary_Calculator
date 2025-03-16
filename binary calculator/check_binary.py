@@ -32,7 +32,7 @@ def check_plus_minus(numbers):
     current_number = 0
     current_operation = 0
     
-    ops = text_filter(numbers, ['-', '+'])
+    ops = text_filter(numbers, ['+', '-'])
     numbers = text_split(numbers, ['+', '-'])
 
     for n in range(len(numbers)):
