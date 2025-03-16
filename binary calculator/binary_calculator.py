@@ -1,6 +1,6 @@
 from equation_calc import equation_calculator
 
-print("Welcome to binary calculator! Write your equation and see what we can do!\n(acceptable symbols: +, -, /, *, ~ or NOT, AND, OR, XOR)\n")
+print("Welcome to binary calculator! Write your equation and see what we can do! (enter to exit)\n(acceptable symbols: +, -, /, *, ~ or NOT, AND, OR, XOR)\n")
 
 while True:
     
