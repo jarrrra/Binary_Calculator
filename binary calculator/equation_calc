@@ -56,4 +56,3 @@ def equation_calculator(equation):
     
     except:
         return 'invalid!'
-
