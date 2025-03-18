@@ -27,7 +27,7 @@ def operations(op, nums, current_number):
             return bin(num1 * num2)[2:], current_number
         elif op == '/':
             if num2 == 0:
-                return 'invalid!'
+                return 'invalid!', current_number
             return bin(num1 // num2)[2:], current_number
         
     return 'invalid!', current_number
